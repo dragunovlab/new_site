@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1040px;
+    height: 60px;
+    margin: 0 auto;
+    border: solid #DA001D 2px;
+    border-radius: 50px;
+}
+
+.logo {
+    margin-left: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28, 13px;
+}
+
+.ul {
+    display: flex;
+    font-style: italic;
+}
+
+.li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.callback {
+    width: 177px;
+    height: 60px;
+    border: solid #DA001D 2px;
+    border-radius: 50px;
+    background: none;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28, 13;
+}
+
+/* nav start*/
+
+.h1 {
+    margin-top: 77px;
+    margin-left: 160px;
+
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 42, 19px;
+}
+
+.rectangleH1 {
+    position: absolute;
+    top: 137px;
+    left: 562px;
+    width: 510px;
+    height: 42px;
+    background: #DA001D;
+    z-index: -1;
+}
+
+.boxContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+    margin-left: 120px;
+    width: 1040px;
+    height: 558px;
+}
+
+.sliderBtns {
+    margin-top: 203px;
+    width: 25px;
+    height: 166px;
+}
+
+.sliderBtn {
+    width: 25px;
+    height: 25px;
+    margin-top: 22px;
+    background: linear-gradient(#DA001D, #000000);
+    border-radius: 50px;
+}
+
+.circle {
+    width: 412px;
+    height: 412px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background: linear-gradient(#DA001D, #000000);
+    border-radius: 50%;
+}
+
+.videoCard {
+    position: absolute;
+    top: 341px;
+    left: 160px;
+}
+
+.description {
+    width: 290px;
+    height: 399px;
+    margin-top: 57px;
+    margin-left: 108px;
+}
+
+.border {
+    width: 20px;
+    height: 512px;
+    margin-right: 0px;
+    background: linear-gradient(#DA001D, #000000);
+}
+
+.images {
+    display: flex;
+    width: 290px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: linear-gradient(180deg, #DA001D 0%, #000000 100%);
+}
